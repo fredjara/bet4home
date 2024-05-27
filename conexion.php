@@ -17,8 +17,8 @@ if (mysqli_connect_errno()) {
 die('Failed to connect to MySQL: '.mysqli_connect_error());
 }
 
-$conexion = new mysqli("localhost", "root", "", "bet4homeform");
-$conexion->set_charset('utf8');
+/*
+$conexion = new mysqli("localhost", "root", "", "bet4homeform");*$conexion->set_charset('utf8');
 
     try{
         $conexion;
